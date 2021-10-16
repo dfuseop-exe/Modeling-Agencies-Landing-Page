@@ -1,0 +1,114 @@
+body{
+    background-image: url('./bg1.jpg');
+    margin: 0px;
+    background-size: cover;
+    height: 110vh;
+}
+
+header{
+    padding: 20px;
+    color: white;
+    position: sticky;
+    top: 0px;
+   
+}
+
+.logo-box{
+    display: inline-block;
+    width: 180px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.logo-box:hover{
+    color: salmon;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+.nav-box{
+  
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    
+
+}
+
+.nav-box > a:hover{
+    color: salmon;
+    transition: all 0.5s;
+}
+
+#home{
+    color: salmon;
+}
+
+.nav-box > a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.heading{
+    color: salmon;
+    font-size: 85px;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: 60px;
+    left: 100px;
+    width: 500px;
+    line-height: 75px;
+}
+
+.heading+h3{
+    color: rgb(255, 255, 255);
+    font-family:  'Alegreya Sans SC';
+    font-size: 35px;
+    position: relative;
+    left: 105px;
+    width: 500px;
+}
+
+.heading+h3+p{
+    color: rgba(255, 255, 255, 0.671);
+    font-family:  'Rubik', sans-serif;
+    position: relative;
+    width: 350px;
+    left: 105px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.btn{
+    width: 140px;
+    padding: 10px;
+    border: 2px solid salmon;
+    background-color: salmon;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 45px;
+    position: relative;
+    left: 105px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(223, 84, 68, 0);
+    transition: all 0.5s;
+}
+
+section{
+    color: salmon;
+    background-color: #121212c7;
+    position: fixed;
+    bottom: 0px;
+}
